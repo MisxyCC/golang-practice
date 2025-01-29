@@ -8,5 +8,6 @@ import (
 func main() {
 	//concurrency.ExecuteConcurrency()
 	//concurrency.ExecuteSampleGoSched()
-	concurrency.ExecuteSampleGoroutinesAndChannels()
+	//concurrency.ExecuteSampleGoroutinesAndChannels()
+	concurrency.ExecuteSampleGoroutinesAndChannels2()
 }
