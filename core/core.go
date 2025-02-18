@@ -1,13 +1,12 @@
-package main 
+package main
 
-
-import (
-	"misxy/concurrency"
-)
+import "misxy/context"
 
 func main() {
 	//concurrency.ExecuteConcurrency()
 	//concurrency.ExecuteSampleGoSched()
 	//concurrency.ExecuteSampleGoroutinesAndChannels()
-	concurrency.ExecuteSampleGoroutinesAndChannels2()
+	//concurrency.ExecuteSampleGoroutinesAndChannels2()
+	//context.Demo()
+	context.Demo2()
 }
